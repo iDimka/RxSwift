@@ -32,6 +32,7 @@ gitDiff().grep("bug").less          // sequences of swift objects
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
 
+  s.static_framework      = true
   s.source_files          = 'RxSwift/**/*.swift', 'Platform/**/*.swift'
   s.exclude_files         = 'RxSwift/Platform/**/*.swift'
 end
